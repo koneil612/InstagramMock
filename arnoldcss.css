@@ -1,13 +1,35 @@
+
+.cf:before,
+.cf:after {
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.cf:after {
+clear: both;
+}
+
+.search {
+    border-radius: 3px;
+    text-align: center;
+    color: lightgray;
+    width: 200px;
+    border: 1px solid lightgray;
+    background-color: #F9F9F9
+}
+
 .container {
-    background-color: #E8E8E8;
+    background-color: #F9F9F9;
+    margin-left: 104px;
 }
 #title {
     background: url(sprites.png) no-repeat -266px -49px;
 	width: 28px;
 	height: 28px;
 }
-.navbar-nav li {
-    padding-left: 24px;
+nav {
+    padding: 50px;
+    border-bottom: 1px solid lightgrey;
 }
 #navLogo {
     background: url(sprites.png) no-repeat -177px 0;
@@ -17,13 +39,12 @@
     float: left;
 }
 
-.navbar-right ul {
-    float: right;
-}
-.navbar-header ul {
+.navbar-right ul li{
     list-style-type: none;
-    height: 77px;
+    display: inline;
+    text-decoration: none;
     background-color: white;
+    float: right;
 
 }
 #discover {
@@ -49,11 +70,12 @@
 
 #header-left {
  text-align: center;
- padding-left: 20%;
+ padding-right: 50px;
+ padding-left: 50px;
 }
 #header-right {
  text-align: left;
- padding-right: 20%;
+ padding-left: 40px;
 }
 
 #avatar {
@@ -91,8 +113,8 @@
 .photos {
     margin-bottom: 28px;
     line-height: 16px;
-padding: 5px 75px;
-text-align: center;
+    padding: 5px 75px;
+    text-align: center;
 
 }
 .photos img {
@@ -101,4 +123,28 @@ text-align: center;
     height: 293px;
     margin: auto;
 
+}
+
+.hover figure img {
+	opacity: 2;
+
+}
+.hover figure:hover img {
+	opacity: .4;
+}
+
+.text {
+    position:relative;
+    bottom:150px;
+    /*top: 50px;*/
+    visibility:hidden;
+}
+
+.hover:hover .text {
+visibility:visible;
+}
+
+.text {
+    color: white;
+    weight: bolder;
 }

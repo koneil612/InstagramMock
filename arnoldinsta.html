@@ -11,20 +11,22 @@
 <!-- nav bar -->
 <nav>
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a href="#">
+        <div class="row">
+            <div class="col-md-4 navbar-header"><a href="#">
                 <div class="logo" id="navLogo">
                 </div>
             </a>
-            <ul class="navbar-nav navbar-right">
-                <li id="discover">
-                    <a href="#"></li>
-                <li id="follow">
-                    <a href="#"></a>
-                </li>
-                <li id="profile">
-                    <a href="#"></a>
-                </li>
+            </div>
+            <div class="col-md-4">
+                <input type="search" class="search" value="Search" />
+            </div>
+            <div class="col-md-4 navbar-right">
+                <ul>
+                <li id="discover"><a href="#"></li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+                <li id="follow"><a href="#"></a></li>
+                <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+                <li id="profile"><a href="#"></a></li>
             </ul>
         </div>
     </div>
@@ -32,13 +34,13 @@
 <!-- <div class="body"> -->
     <div class="container">
         <div class="row header">
-            <div class="col-md-6" id="header-left">
+            <div class="col-md-4" id="header-left">
                 <img src="profile.jpg" id="avatar">
             </div>
-            <div class="col-md-6" id="header-right">
+            <div class="col-md-8" id="header-right">
                 <div class="name">
                     schwarzenegger <a href="#"
-                        id="verify"> . </a>
+                        id="verify">&nbsp&nbsp</a>
                         <button class="follow"> Follow</button>
 
                 </div>
@@ -53,24 +55,28 @@
     </div>
     <div class="container">
         <div class="row photos">
-            <div class="col-sm-4 center"><img src="message.jpg" / /></div>
-            <div class="col-sm-4"><img src="thanksgiving.jpg" /></div>
-            <div class="col-sm-4"><img src="point.jpg" /></div>
+            <div class="col-sm-4 center hover"><figure>
+            <img src="message.jpg" /></figure><p class="text">98K &nbsp&nbsp 761</p></div>
+            <div class="col-sm-4 hover"><figure>
+            <img src="thanksgiving.jpg" /></figure><p class="text">120K &nbsp&nbsp 749</p></div>
+            <div class="col-sm-4 hover"><figure><img src="point.jpg" /></figure><p class="text">204K &nbsp&nbsp 727</p></div>
+            </div>
+        <div class="row photos">
+            <div class="col-sm-4 center hover"><figure><img src="german.jpg" /></figure><p class="text">307K 3,079</p></div>
+            <div class="col-sm-4 hover"><figure>
+            <img src="movie.jpg" /></figure><p class="text">40K 207</p></div>
+            <div class="col-sm-4 hover"><figure>
+            <img src="jan2.jpg" /></figure><p class="text">100K 2,403</p></div>
+            </div>
+        <div class="row photos">
+            <div class="col-sm-4 center hover"><figure><img src="old.jpg"/></figure><p class="text">294 &nbsp &nbsp 2,894</p></div>
+            <div class="col-sm-4 hover"><figure><img src="flag.jpg" /></figure><p class="text">294 &nbsp &nbsp 2,894</p></div>
+            <div class="col-sm-4 hover"><figure><img src="pool.jpg" /></figure><p class="text">294 &nbsp &nbsp 2,894</p></div>
         </div>
         <div class="row photos">
-            <div class="col-sm-4 center"><img src="german.jpg" /></div>
-            <div class="col-sm-4"><img src="movie.jpg" /></div>
-            <div class="col-sm-4"><img src="jan2.jpg" /></div>
-        </div>
-        <div class="row photos">
-            <div class="col-sm-4 center"><img src="old.jpg" / /></div>
-            <div class="col-sm-4"><img src="flag.jpg" /></div>
-            <div class="col-sm-4"><img src="pool.jpg" /></div>
-        </div>
-        <div class="row photos">
-            <div class="col-sm-4 center"><img src="white.jpg" / /></div>
-            <div class="col-sm-4"><img src="mobilestrike.jpg" /></div>
-            <div class="col-sm-4"><img src="adweek.jpg" /></div>
+            <div class="col-sm-4 center hover"><figure><img src="white.jpg" /></figure><p class = "text">104k 205</p></div>
+            <div class="col-sm-4 hover"><figure><img src="mobilestrike.jpg" /></figure><p class = "text">205k 3025</p></div>
+            <div class="col-sm-4 hover"><figure><img src="adweek.jpg" /></figure><p class = "text">204k 103</p></div>
         </div>
     </div>
 
