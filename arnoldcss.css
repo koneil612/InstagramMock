@@ -1,4 +1,4 @@
-
+/**/clear fix css
 .cf:before,
 .cf:after {
 content: " "; /* 1 */
@@ -22,6 +22,7 @@ clear: both;
     background-color: #F9F9F9;
     margin-left: 104px;
 }
+/**/the sprites selects from the location on the sprite folder. used spritecow to get the location
 #title {
     background: url(sprites.png) no-repeat -266px -49px;
 	width: 28px;
@@ -124,7 +125,7 @@ nav {
     margin: auto;
 
 }
-
+/**/the rest of the css  also goes to the hover allowing the text to pop up.
 .hover figure img {
 	opacity: 2;
 
